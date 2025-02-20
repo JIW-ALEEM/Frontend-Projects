@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Images/logo 1.png">
+    <title>Tic Tac Toe</title>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="../CSS/door.css">
+<body>
+    <body> 
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <img src="../Images/logo 1.png" width="200">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link m-1" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle m-1" href="#"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Games Category
+                    </a>
+                    <ul class="dropdown-menu bg-dark text-light"  aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item active bg-dark text-light" href="indoor.html">Indoor</a></li>
+                      <li><a class="dropdown-item bg-dark text-light" href="outdoor.html">Outdoor</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link m-1" href="About Us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link m-1" href="Contact Us.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<br><br><br>    
+    
+    <div class="container"> 
+        <h1 style="text-align: center;">Tic Tac Toe</h1>  
+        <h3>HOW TO PLAY?</h3> 
+       <p>Tic-tac-toe is a fun game that you can play any time and anywhere as long as you have a piece of paper, a pencil, and an opponent. Tic-tac-toe is a zero-sum game, which means that if both players are playing their best, then neither player will win. However, if you learn how to play tic-tac-toe and master some simple strategies, then you'll be able to not only play but win the majority of the time. If you want to know how to play tic-tac-toe, then see Step 1 to get started.
+
+       </p>
+       <div class="container">
+        <video width="100%" height="auto" controls autoplay loop>
+            <source src="../Video/How to play Tic Tac Toe.mp4" type="video/mp4"></video>
+                <div class="container">
+               <h3>Download Instructions</h3>
+                <p>For Saving Instructions Offline Click The Button Below</p>
+            <a href="../word/Tic Tac Toe.docx" class="btn btn-outline-dark" download="Tic Tac Toe.docx">download</a> 
+    </div>
+    </div>
+    <br><br>
+    <h2 style="text-align: center;">Instructions</h2>
+    <br>
+       <div class="row">
+        <div class="col-6">
+        <h3>1. Draw the board.</h3>
+        
+        <img class="img-fluid" src="../Images/tic tac/Step-1.jpg"  alt="..." style="border: 2px solid black;">
+        <p> <ul>
+            <div class="container-fluid ">
+                First, you have to draw the board, which is made up of a 3 x 3 grid of squares. This means it has three rows of three squares. Some people play with a 4 x 4 grid, but that is for more advanced players, and we will focus on the 3 x 3 grid here. <br></div>
+            
+        </ul>   </p>
+       </div>
+
+       <div class="col-6">
+        <h3>2. Have the first player go first.</h3> 
+        <img class="img-fluid" src="../Images/tic tac/Step-2.jpg"  alt="..."style="border: 2px solid black;">
+        <p> <ul>
+            <div class="container-fluid ">
+                Though traditionally, the first player goes with "X", you can allow the first player to decide whether to go with "X"s or to go with "O"s. These symbols will be placed on the table, in an attempt to have three of them in a row. If you're going first, then the best move you can make is to move into the center. This will maximize your chances of winning since you'll be able to create a row of three "X"s or "O"s in more combinations (4) this way than if you chose a different square. <br></div>            
+        </ul>   </p>
+       </div>
+       </div>
+
+
+       <div class="row">
+        <div class="col-6">
+        <h3>3. Have the second player go second.</h3> 
+        <img class="img-fluid" src="../Images/tic tac/Step-3.jpg" alt="..." style="border: 2px solid black;">
+        <p> <ul>
+            <div class="container-fluid ">
+                After the first player goes, then the second player should put down his symbol, which will be different from the symbol of the first player. The second player can either try to block the first player from creating a row of three or focus on creating their row of three. Ideally, the player can do both.  <br>    
+            </div>
+        </ul>   </p>
+       </div>
+
+       <div class="col-6">
+        <h3>4. Keep alternating moves until one of the players has drawn a row of three symbols or until no one can win.</h3> 
+        <img class="img-fluid" src="../Images/tic tac/Step-4.jpg"  alt="..." style="border: 2px solid black;">
+        <p> <ul>
+            <div class="container-fluid">
+                The first player to draw three of their symbols in a row, whether it is horizontal, vertical, or diagonal, has won tic-tac-toe. However, if both players are playing with optimal strategy, then there's a good chance that no one will win because you will have blocked all of each other's opportunities to create a row of three. <br>
+            
+        </ul>   </p>
+       </div>
+            </div>
+       <div class="row">
+        <div class="col-6">
+        <h3>5. Keep practicing.</h3> 
+        <img class="img-fluid" src="../Images/tic tac/Step-5.jpg" alt="..." style="border: 2px solid black;">
+        <p> <ul>
+            <div class="container-fluid ">
+                Contrary to popular belief, tic-tac-toe isn't purely a game of chance. Some strategies can help you optimize your skills and to become an expert tic-tac-toe player. If you keep playing, you'll soon learn all of the tricks to make sure you win every time -- or, at least, you'll learn the tricks to make sure you never lose. It is like 0's and x's.  <br>
+         
+        </div>
+          
+        </ul>   </p>
+       </div>
+
+       <div class="col-6">
+           <h3>6. Make the best first move. </h3>
+        <img class="img-fluid" src="../Images/tic tac/Step-6.jpg" alt="..." style="border: 2px solid black;">
+        <p> <ul>
+            <div class="container-fluid ">
+                The best move, if you go first, is to go to the center. There are no ifs, and, or buts about it. If you go in the middle, you will have the highest chance of winning the game. And if you let your opponent go there, you will have the highest chance of losing. And you don't want that, do you? <br>
+           <li> If you don't go to the center, your next best move is to go to one of the four corners. That way, if your opponent does not choose the center (and a novice player may not), then you have a high chance of winning.</li>
+           <li> Avoid the edges as a first move. The edges are the four boxes that are neither the center nor the corner. If you go here first, you will have the smallest chance of winning.</li>
+   
+        </div>
+          
+        </ul>   </p>
+       </div>
+       </div>
+       <div class="row">
+        <div class="col-6">
+        <h3>7. React appropriately if the other player goes first.</h3>
+     <img class="img-fluid" src="../Images/tic tac/Step-7.jpg" alt="..." style="border: 2px solid black;">
+     <p> <ul>
+         <div class="container-fluid ">
+            If the other player goes first and does not go in the center, then you should go in the center. But if the other player does go in the center, then your best bet is to place your symbol on one of the corner squares. <br>
+       
+     </div>
+       
+     </ul>   </p>
+    </div>
+
+    <div class="col-6">
+        <h3>8. Follow the "right, left, above, and below" strategy.</h3>
+     <img class="img-fluid" src="../Images/tic tac/Step-8.jpg" alt="..." style="border: 2px solid black;">
+     <p> <ul>
+         <div class="container-fluid ">
+            This is another sure-fire strategy that will help you win the game. When your opponent makes a mark, see if you can place your symbol to the right of his symbol. If you can't, then see if you can place it to the left. If you can't, then move it above your opponent's symbol. And finally, if that doesn't work, see if you can move your mark below your opponent's. This strategy ensures that you'll be most successful at optimizing your position and blocking your opponent from scoring. <br>
+   
+                 
+     </div>
+       
+     </ul>   </p>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+        <h3>9. Use the three-corner strategy.</h3>
+     <img class="img-fluid" src="../Images/tic tac/Step-9.jpg" alt="..." style="border: 2px solid black;">
+     <p> <ul>
+         <div class="container-fluid ">
+            Another strategy for winning the game of tic-tac-toe is to place your symbols in three of the four corners of the board. This can optimize your chances of getting three in a row because you'll be able to create a diagonal row or rows along the sides of the grid. This will work if your opponent does not completely thwart you, of course. <br>
+      
+        
+     </div>
+       
+     </ul>   </p>
+    </div>
+
+    <div class="col-6">
+        <h3>10. 
+            Play against a machine.</h3>
+     <img class="img-fluid" src="../Images/tic tac/Step-10.jpg" alt="..." style="border: 2px solid black;">
+     <p> <ul>
+         <div class="container-fluid ">
+            If you want to up your strategy and make sure that you never lose, then it's best to play as much as you can instead of memorizing a list of strategies. You can find computers online that can play against you and will quickly be able to play a game where you never lose (even if you can't win).  <br>
+      
+     </div>
+       
+     </ul>   </p>
+    </div>
+    </div>
+
+    <div class="container">
+        <h3 style="text-align: center;">11. Take it to the next level.</h3>
+     <img class="img-fluid rounded mx-auto d-block" src="../Images/tic tac/Step-11.jpg" alt="..." style="border: 2px solid black;"> 
+     <p> <ul>
+         <div class="container-fluid ">
+            If you feel stifled by the 3 x 3 board, then it may be time for you to play on a board that is 4 x 4 or even 5 x 5 squares large. The bigger the board, the bigger the row you'll have to create; for the 4 x 4 board, you'll need to create 4 symbols in a row and for the 5 x 5 board, you'll need to create a row of 5 symbols, and so on. <br>
+    
+     </div>
+       
+     </ul>   </p>
+    </div>
+      
+
+       
+    </div>
+
+
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com/"
+              role="button"><i class="bi bi-facebook"></i></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="https://twitter.com/"
+              role="button"
+              ><i class="bi bi-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="https://accounts.google.com/"
+              role="button"
+              ><i class="bi bi-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/"
+              role="button"
+              ><i class="bi bi-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://pk.linkedin.com/"
+              role="button"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/"
+              role="button"
+              ><i class="bi bi-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Picnic Games.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+.navbar
+{
+  background: rgba(0, 0, 0, 0.8);
+}
+body {
+  background-image: url("../Images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+.navbar
+{
+  background: rgba(0, 0, 0, 0.7);
+}
+
+  .navbar a {
+    color: white;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    border-bottom:4px solid green;
+    border-top:4px solid green;
+    color: white;
+  }
+  .dropdown-menu .dropdown-item a:hover
+  {
+    border-bottom:4px solid green;
+    border-top: 4px solid green;
+    color: white;
+  }
+  .navbar a.active {
+    border-bottom:4px solid blue;
+    border-top: 4px solid blue;
+    color: white;
+  }
+  p
+  {
+    font-family: cursive;
+    text-shadow: 1px 1px gray;
+  }
+
+  @media (min-width: 320px) 
+{
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .text
+  {
+font-size: 8px;
+  }
+  h4
+{
+  font-size: 12px;
+}
+}
+@media (min-width: 576px) 
+{
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .text
+  {
+font-size: 12px;
+  }
+  h4
+  {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) 
+{
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .text
+  {
+font-size: 14px;
+  }
+  h4
+{
+  font-size: 16px;
+}
+}
+@media (min-width: 992px) 
+{
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .text
+  {
+font-size: 15px;
+  }
+  h4
+{
+font-size: 22px;
+}
+}
+@media (min-width: 1200px) 
+{
+  *
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .text
+  {
+font-size: 16px;
+  }
+  h4
+{
+  font-size: 28px;
+}
+}
