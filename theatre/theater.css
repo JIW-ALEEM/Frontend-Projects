@@ -1,0 +1,59 @@
+body
+{
+    background-color: black;
+}
+
+/* navbar css */
+
+.navbar
+{
+  background: rgba(0, 0, 0, 0.7);
+}
+  .navbar .nav-link:hover {
+    border-bottom:4px solid rgb(121, 45, 45);
+    border-top:4px solid rgb(121, 45, 45);
+    color: white;
+  }
+  .dropdown-menu, .dropdown-item
+  {
+    background-color: black;
+  }
+  .dropdown-menu .dropdown-item:hover
+  {
+    border-bottom:4px solid  rgb(121, 45, 45);
+    border-top: 4px solid  rgb(121, 45, 45);
+    background-color: black;
+    color: white;
+  }
+  .navbar .nav-link.active {
+    border-bottom:4px solid red;
+    border-top: 4px solid red;
+    color: white;
+  }
+  
+
+/* div text center hover */
+
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.6);
+    
+  }
+
+.content:hover .overlay {
+    opacity: 1;
+    box-shadow: 2px 2px 8px 8px black;
+  }
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

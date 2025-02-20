@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+<style>
+    body{
+        background-color: darkgray;
+    }
+.main{
+    margin: 4%;
+    margin-left: 30%;
+    background-color: white;
+    width: 470px;
+    padding: 20px;
+}
+h1{
+    font-family: Arial;
+}
+p{
+    color: grey;
+    text-align: left;
+    margin-left: 5px;
+     margin-top: 2px;
+     font-size: 15px;
+}
+form{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+input::placeholder{
+    color:gray;
+    font-size: 15px;
+}
+button{
+    margin: 8px 0;
+padding: 15px 20px;
+font-size: 15px;
+margin-top:0%;
+margin-left: 25px;
+font-weight: bold;
+color: white;
+background-color: black;
+width: 30%;
+}
+
+input[type=password] ,input[type=email],input[type=text]
+{
+width: 90%;
+font-size: 20px;
+padding: 10px;
+margin: 5px 0 15px 0;
+border: none;
+background: #f1f1f1;
+}
+
+a{
+    color:black;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="main">
+        <h1> Sign up </h1>
+  <p> Please fill in this form to create an account! </p>
+  <form>
+<input type="text"placeholder="First Name" required><input type="text" placeholder="Last Name" required><br>
+<input type="Email" placeholder="Email" required> <br>
+<input type="Password" placeholder="Password" required><br>
+<input type="password" placeholder="Confirm Password" required>
+<p><span><input type="checkbox" required></span> I accept the Terms Of <a href="#"> Use & Privacy Policy</a>. </p><br>
+
+<button type="submit" > Sign up </button><br>
+
+<p>Already have an account? <a href="loginform.html"> Login Here </p><br>
+
+
+
+  </form>
+    </div>
+</body>
+</html>
